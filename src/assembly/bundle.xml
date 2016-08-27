@@ -9,6 +9,11 @@
     <dependencySet>
       <outputDirectory>lib</outputDirectory>
       <scope>runtime</scope>
+      <includes>
+        <include>
+          com.baulsupp:abitsheet
+        </include>
+      </includes>
     </dependencySet>
   </dependencySets>
   <fileSets>
@@ -19,39 +24,10 @@
       </includes>
     </fileSet>
     <fileSet>
-      <directory>src/main/scripts</directory>
-      <outputDirectory>bin</outputDirectory>
-      <lineEnding>unix</lineEnding>
-      <fileMode>0755</fileMode>
-    </fileSet>
-    <fileSet>
-      <directory>certificates</directory>
-      <outputDirectory>certificates</outputDirectory>
-    </fileSet>
-    <fileSet>
       <directory>commands</directory>
       <outputDirectory>bin</outputDirectory>
       <lineEnding>unix</lineEnding>
       <fileMode>0755</fileMode>
-    </fileSet>
-    <fileSet>
-      <directory>bash</directory>
-      <outputDirectory>bash</outputDirectory>
-    </fileSet>
-    <fileSet>
-      <directory>src/main/resources</directory>
-      <outputDirectory>scripts</outputDirectory>
-      <includes>
-        <include>oksocial.js</include>
-      </includes>
-    </fileSet>
-    <fileSet>
-      <directory>target/alpn</directory>
-      <outputDirectory>alpn</outputDirectory>
-    </fileSet>
-    <fileSet>
-      <directory>external</directory>
-      <outputDirectory>lib</outputDirectory>
     </fileSet>
   </fileSets>
 </assembly>
