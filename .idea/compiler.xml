@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="abitsheet" />
+        <module name="abitsheetsu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="abitsheet" target="1.8" />
+      <module name="abitsheetsu" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

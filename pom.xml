@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.baulsupp</groupId>
-  <artifactId>abitsheet</artifactId>
+  <artifactId>abitsheetsu</artifactId>
   <version>0.9-SNAPSHOT</version>
   <name>Sheetsu API Tools</name>
   <url>https://github.com/yschimke/abitsheet</url>
