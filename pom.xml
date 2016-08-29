@@ -119,7 +119,7 @@
         <version>2.6</version>
         <configuration>
           <descriptor>src/assembly/bundle.xml</descriptor>
-          <finalName>abitsheet-${project.version}</finalName>
+          <finalName>abitsheetsu-${project.version}</finalName>
           <tarLongFileMode>posix</tarLongFileMode>
         </configuration>
         <executions>
